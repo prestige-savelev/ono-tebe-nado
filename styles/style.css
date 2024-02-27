@@ -2,12 +2,6 @@
 
 /* Общие стили */
 
-.no_decoration {
-    list-style-type:none;
-    text-decoration: none;
-    font-style: normal;
-}
-
 .header__links-list-item {
     list-style: circle;
 }
@@ -27,7 +21,9 @@
 }
 
 .no_decoration {
+    list-style-type:none;
     text-decoration: none;
+    font-style: normal;
     border: none;
 }
 
@@ -156,13 +152,8 @@
     text-transform: uppercase;
     text-align: left;
     color: #ffffff;
-    margin-right: 79px;
+    margin-right: 70px;
     z-index: 1;
-}
-
-.description-text-word-spacing {
-    display: inline;
-    word-spacing: 16px;
 }
 
 .bet-button {
