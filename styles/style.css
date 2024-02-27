@@ -32,7 +32,7 @@
 /* Header */
 
 .header {
-    margin: 94px 24px 0 24px;
+    margin: 92px 24px 0 24px;
     display: flex;
 }
 
@@ -50,7 +50,7 @@
     letter-spacing: 0.01em;
 }
 
-.no_decoration a{
+.no_decoration a {
     text-decoration: none;
     border: none;
 }
@@ -58,6 +58,11 @@
 .header_logo {
     width: 135px;
 }  
+
+.header_logo-link {
+    display: block;
+    width: 135px;
+}
 
 .contacts {
     display: flex;
@@ -69,7 +74,7 @@
     letter-spacing: 0.01em;
 }
 
-.contacts address {  
+  .contacts_address {      
     letter-spacing: 0em;
 }
 
@@ -82,7 +87,7 @@
 /* Cover */
 
 .cover {
-    margin-top: 96px;
+    margin-top: 94px;
 }
 
 .cover_wrapper {
@@ -178,7 +183,7 @@
 
 /* Lots */
 
-.lots{
+.lots {
     margin: 179px 24px 0px 24px;
 }
 
@@ -197,7 +202,6 @@
 }
 
 .lots__card-list-item {
-    flex-grow: 1;  
     width: 334px;
     min-height: 563px ;
 }
